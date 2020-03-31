@@ -4,6 +4,8 @@
 using namespace std;
 
 void draw(string a[4][3]){
+    
+    //Draw the array
 
     int fila;
     int columna;
@@ -18,12 +20,16 @@ void draw(string a[4][3]){
 }
 
 int main(){
+    
+    //Some vars
+    
+    int const x =4;
+    int const y = 3;
 
     string grupo;
     string asesor;
     
-    int const x =4;
-    int const y = 3;
+    //Declaring some "Schedules"
 
     string a1[x][y]={
         {"[   Materias  ]","[  Maestros  ]","[   Horario   ]"},
@@ -53,6 +59,8 @@ int main(){
         {"[  Escritura  ]","[   Samuel   ]","[16:00 - 17:00]"}
     };
 
+    //Program flow
+    
     cout<<"Hola, De que grado y grupo eres? : "<<endl;
     cin>>grupo;
 
